@@ -1,0 +1,29 @@
+{
+	"name": "secret-chat-cli",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"build": "tsc",
+		"start": "tsc && secretchat"
+	},
+	"bin": {
+		"secretchat": "./dist/index.js"
+	},
+	"keywords": [],
+	"author": "Woosuk Nam",
+	"license": "MIT",
+	"dependencies": {
+		"socket.io-client": "^4.7.5"
+	},
+	"devDependencies": {
+		"@types/node": "^22.5.4",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"eslint": "^8.42.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"prettier": "^3.0.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.5.4"
+	}
+}

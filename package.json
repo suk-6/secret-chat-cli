@@ -1,7 +1,7 @@
 {
 	"name": "secret-chat-cli",
 	"version": "1.0.0",
-	"description": "",
+	"description": "my secret chat program!! don't touch it.. hehe",
 	"scripts": {
 		"build": "tsc",
 		"start": "tsc && secretchat"
@@ -10,8 +10,12 @@
 		"secretchat": "./dist/index.js"
 	},
 	"keywords": [],
-	"author": "Woosuk Nam",
+	"author": "Woosuk Nam (https://suk.kr)",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/suk-6/secret-chat-cli"
+	},
 	"dependencies": {
 		"socket.io-client": "^4.7.5"
 	},

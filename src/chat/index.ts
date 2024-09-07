@@ -20,6 +20,11 @@ export class Chat {
       output: this.output
     });
 
+    if (process.env.CHAT_SERVER === undefined) {
+      console.error("Please set the CHAT_SERVER environment variable");
+      process.exit(1);
+    }
+
     this.socket = io(process.env.CHAT_SERVER);
     this.socket.on("connect", () => {
       console.clear();

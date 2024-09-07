@@ -1,6 +1,6 @@
 {
 	"name": "secret-chat-cli",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "my secret chat program!! don't touch it.. hehe",
 	"scripts": {
 		"build": "tsc",
